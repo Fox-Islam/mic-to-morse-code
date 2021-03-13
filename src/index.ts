@@ -20,10 +20,10 @@ export default class MicToMorseCode {
     private currentAudioState: AudioState = 'not-listening';
     private lastState: ListeningState = 'no-sound';
     private events: Events = {
-        'on:change': () => { },
-        'on:audio:state:change': () => { },
-        'on:character:end': () => { },
-        'on:word:end': () => { },
+        'on:change': () => {},
+        'on:audio:state:change': () => {},
+        'on:character:end': () => {},
+        'on:word:end': () => {},
     };
     private soundStartTime: number = 0;
     private soundStopTime: number = 0;
